@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test template</title>
+
+  <meta charset="utf-8">
+  <base href="/" />
+
+  <!-- Materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize//0.98.0/css/materialize.min.css">
+
+  <!-- JavaScript for: jQuery, angular, materialize, and angular-materialize. All of which are needed. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize//0.98.0/js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-materialize/0.2.2/angular-materialize.min.js"></script>
+
+  <!-- App config / routing -->
+  <script src="javascripts/app.js"></script>
+
+  <!-- controllers -->
+  <script src="javascripts/controllers/testController.js"></script>
+  <script src="javascripts/controllers/rootController.js"></script>
+  <script src="javascripts/controllers/404Controller.js"></script>
+  <script src="javascripts/controllers/usersController.js"></script>
+
+</head>
+<body ng-app="templateApp">
+
+  <ui-view></ui-view>
+
+</body>
+</html>
